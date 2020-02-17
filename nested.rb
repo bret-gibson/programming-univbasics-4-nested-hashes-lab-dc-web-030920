@@ -58,7 +58,7 @@ def dennis_ritchies_language
         }
      }
      count;
-     while programmer_hash[:dennis_ritchie][:languages].length count do
+     while programmer_hash[:dennis_ritchie][:languages].length > count do
       programmer_hash[:dennis_ritchie][:languages][count]
       count += 1
      end
