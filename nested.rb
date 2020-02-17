@@ -58,7 +58,7 @@ def dennis_ritchies_language
         }
      }
      while programmer_hash[:dennis_ritchie][:languages].length.times { |index| 
-       returnprogrammer_hash[:dennis_ritchie][:languages][index]
+       return programmer_hash[:dennis_ritchie][:languages][index]
      }
 end
 
